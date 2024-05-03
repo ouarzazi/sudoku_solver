@@ -1,72 +1,48 @@
 # Sudoku Solver
 
-
-
 ## Table of Contents
 
-
-
 - [Description](#description)
-
 - [Usage](#usage)
-
 - [Example](#example)
-
-
+- [Streamlit App](#streamlit-app)
 
 ## Description
 
-
-
-This Python project provides a Sudoku solver that utilizes a recursive backtracking algorithm. The program is designed to take a partially filled Sudoku grid as input and return the solved puzzle. 
-
-
+This Python project provides a Sudoku solver that utilizes a recursive backtracking algorithm. The program is designed to take a partially filled Sudoku grid as input and return the solved puzzle.
 
 ## Usage
 
-
-
 1. Clone the repository to your local machine:
 
-
-
-   ```bash
-
-   git clone https://github.com/ouarzazi/Sudoku-Solver.git
-
-   ```
-
-
+    ```bash
+    git clone https://github.com/ouarzazi/Sudoku-Solver.git
+    ```
 
 2. Navigate to the project directory:
 
+    ```bash
+    cd sudoku-solver
+    ```
 
+3. Install the required dependencies:
 
-   ```bash
+    ```bash
+    pip install streamlit
+    ```
 
-   cd sudoku-solver
+4. Run the Streamlit app:
 
-   ```
+    ```bash
+    streamlit run sudoku_solver.py
+    ```
 
-
-
-3. Run the program:
-
-
-
-   ```bash
-
-   python sudoku_solver.py
-
-   ```
-
-
+5. Access the Streamlit app through the provided URL in your browser.
 
 ## Example
 
-
-
-Starting grid:  
+Starting grid:
+ 
 
 5 3 0 0 7 0 0 0 0  
 
